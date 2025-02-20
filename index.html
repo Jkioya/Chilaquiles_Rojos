@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+
+        .header
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #ff7300;
+            padding: 15px 0;
+            text-align: left;
+            padding-left: 60px;
+            z-index: 1000;
+        }
+
+        .header h1
+        {
+            color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+        }
+
+        body
+        {
+            margin-top: 80px;
+            background: white;
+            scroll-padding-top: 200px;
+        }
+
+        .content
+        {
+            max-width: 800px;
+            margin: 0 auto;
+            margin-right: 700px;
+            padding: 30px;
+            height: 2000px;
+            color: #000000;
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .content h2
+        {
+            color: #000000;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            scroll-margin-top: 200px;
+        }
+
+        .content p
+        {
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .content img
+        {
+            width: 800px;
+            height: 400px;
+            object-fit: cover;
+            display: block;
+            margin: 20px 0px;
+            border-radius: 0px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container
+        {
+            padding: 10px;
+            background-color: f5f5f5;
+            margin: 20px 0;
+            border-radius: 12px;
+            display: inline-block;
+        }
+
+        .yo-panel
+        {
+            position: fixed;
+            right: 20px;
+            top: 100px;
+            width: 300px;
+            background: #ff7300;
+            padding: 20px;
+            border-radius: 15px;
+            color: rgb(255, 255, 255);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .index-panel
+        {
+            position: fixed;
+            right: 20px;
+            top: 350px;
+            width: 300px;
+            background: #ff7300;
+            padding: 20px;
+            border-radius: 15px;
+            color: rgb(255, 255, 255);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .index-panel a 
+        {
+            display: block;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 10px 0;
+            transition: all 0.3s ease;
+        }
+
+        .index-panel a:hover
+        {
+            transform: translateX(10px);
+            color: #00DF82;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>CHILAQUILES ROJOS</h1>
+    </header>
+
+    <div class="yo-panel">
+
+        <h3>Creado por Josue MS</h3>
+        <p>Desarrollador de software</p>
+        <p>josuekdkkdavid@gmail.com</p>
+
+    </div>
+
+    <div class="index-panel">
+        <h3>Indice de contenidos</h3>
+        <div id="index-content">
+        </div>
+    </div>
+
+
+    <div class="content">
+        
+        <h2>CHILAQUILES</h2>
+        <p>Los chilaquiles son pedazos de tortillas que se fríen y se bañan con una salsa picosa. 
+            Aunque existe gran variedad de éstos, los clásicos son los que llevan salsa roja o salsa 
+            verde y no se les pone proteína, aunque tambien se consumen con frecuencia los chilaquiles 
+            que se cubren con mole, por ejemplo. A los chilaquiles se les espolvorea queso y usualmente 
+            se les pone crema y cebolla.</p>
+            
+        <!--Aqui va la imagen de unos chilaquiles bien insanos-->
+        <img src="chila.jpg" alt="chilaquiles imagen de chilaquiles">
+        <h2> INGREDIENTES</h2>
+        <h3>Para la salsa</h3>
+        <ul>
+            <li>3 jitomates guaje</li>
+            <li>6 chiles guajillo limpios, sin semillas o venas</li>
+            <li>2 dientes de ajo</li>
+            <li>1/4 de cebolla</li>
+            <li>1 cucharada de aceite</li>
+            <li>2 ramas de epazote</li>
+            <li>Sal al gusto</li>
+        </ul>
+        <h3>Para los chilaquiles</h3>
+        <ul>
+            <li>4 huevos</li>
+            <li>150 ml de aceite</li>
+            <li>400 g de totopos para chilaquiles</li>
+            <li>200 ml de crema ácida</li>
+            <li>250 g de queso fresco desmoronado</li>
+            <li>1/2 cebolla fileteada</li>
+            <li>2 tazas de frijoles negros refritos</li>
+        </ul>
+
+        <h2>PREPARACION</h2>
+        <ol>
+            <li><h3>Preparar la salsa de chile guajillo</h3></li>
+            <ol>
+                <li>
+                    Hidratar los chiles:
+                    <p>Coloca los 6 chiles guajillo en un recipiente con agua caliente y déjalos reposar durante 15 a 20 minutos hasta que se ablanden.</p>
+                </li>
+                <li>
+                    Asar los vegetales:
+                    <p>Mientras los chiles se hidratan, asa en un comal o sartén los 3 jitomates guaje, los 2 dientes de ajo y el ¼ de cebolla. El objetivo es que se dore ligeramente y adquiera un toque ahumado.</p>
+
+                </li>
+                <li>
+                    Licuar la salsa:
+                    <p>Una vez asados y con los chiles ya hidratados (escúrrelos ligeramente), coloca en la licuadora los chiles, los jitomates, el ajo, la cebolla y las 2 ramas de epazote. Agrega una pizca de sal y, si lo consideras necesario, un poco del agua de remojo. Licúa hasta obtener una salsa homogénea.</p>
+                </li>
+                <li>
+                    Cocinar la salsa:
+                    <p>Calienta 1 cucharada de aceite en una sartén y vierte la salsa licuada. Cocina a fuego medio durante unos 10 minutos, removiendo ocasionalmente para integrar bien los sabores. Prueba y ajusta de sal. Antes de continuar, retira las ramas de epazote.</p>
+                </li>
+
+                
+            </ol>
+            <li><h3>Preparar los huevos</h3>
+                <p>En una sartén, calienta una parte del aceite de los 150 ml (puedes usar unos 2-3 cucharadas) y fríe los 4 huevos al gusto (pueden ser estrellados, con la yema líquida o bien cocida según tu preferencia). Reserva los huevos ya listos en un plato.
+                </p>
+            </li>
+            <li><h3>Armar los chilaquiles</h3>
+            <ol>
+                <li>
+                    Integrar totopos y salsa:
+                    <p>En una sartén grande, calienta el resto del aceite a fuego medio. Agrega los 400 g de totopos y vierte la salsa de chile guajillo caliente sobre ellos. Mezcla suavemente para que los totopos se impregnen del sabor sin llegar a empaparse por completo; se busca que queden crujientes con un toque de suavidad.</p>
+                </li>
+                <li>
+                    Calentar brevemente:
+                    <p>Deja que los totopos se calienten con la salsa durante aproximadamente 2 a 3 minutos. Esto permitirá que se integren los sabores sin perder la textura.</p>
+                </li>
+            </ol>
+            </li>
+            <li><h3> Servir y decorar</h3>
+                <ol>
+                    <li>Montaje del plato:
+                        <p>Sirve una porción de totopos bañados en salsa en cada plato.</p>
+                    </li>
+                    <li>Incorporar los huevos:
+                        <p>Coloca encima de los totopos los 4 huevos fritos (puedes cortar cada huevo si lo prefieres).</p>
+                    </li>
+                    <li>Agregar los acompañamientos:
+                        <ul>
+                            <li>Vierte 200 ml de crema ácida de manera uniforme sobre el plato.</li>
+                        <li>Espolvorea 250 g de queso fresco desmoronado.</li>
+                        <li>Decora con ½ cebolla fileteada.</li>
+                    </ul>
+                    </li>
+                    
+                </ol>
+            </li>
+
+            <li><h3>Acompañar con frijoles:</h3>
+            <ol>
+            <p>Sirve 2 tazas de frijoles negros refritos al lado o como base sobre la que colocar los totopos, según tu preferencia.</p>
+            
+            </ol>
+            </li>
+        
+
+        
+        
+        </ol>
+
+        <h3>Video de referencia por si la receta no es suficiente</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YQq0ZohexSU?si=NnHRywlILOh7UQWG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+    </div>
+
+
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const headings = document.querySelectorAll('.content h2');
+        const indexContent = document.getElementById('index-content');
+            
+        headings.forEach((heading, index) => {
+               
+            if (!heading.id) 
+            {
+            heading.id = 'section-' + index;
+            }
+                
+             
+            const link = document.createElement('a');
+            link.href = '#' + heading.id;
+            link.textContent = heading.textContent;
+                
+               
+            link.addEventListener('click', function(e) 
+            {
+                e.preventDefault();
+                const yOffset = -200; 
+                const element = document.getElementById(heading.id);
+                const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                window.scrollTo({top: y, behavior: 'smooth'});
+            });
+                
+                indexContent.appendChild(link);
+            });
+        });
+</script>
+
+
+</body>
+
+
+</html>
